@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clac-display {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 150px;
+}
+
+#container > button {
+    height: 50px;
+    width: 50px;
+}
